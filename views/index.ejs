@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Lists</title>
+</head>
+<body>
+    <h1 class="date"><%= listTitle %></h1>
+    <h1 class="heading">Choose Your List</h1>
+    <ul>
+        <li>Work</li>
+        <li>OR</li>
+        <li>Home</li>
+    </ul>
+    <form action="/" method="post" name="hehe" class="list_form">
+     <input type="text" name="lits" class="lits" autocomplete="off">
+     <button type="submit" name="nameList" class="choose">Choose</button>
+    </form>
+    
+<%-  include("footer")-%>
